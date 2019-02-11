@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/InteractiveResume.git/precache-manifest.5f7d0399f3f28d3ee4e2418d77e9b10e.js"
+  "/InteractiveResume/precache-manifest.547849e32cb17a475d8210740a298bca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/InteractiveResume.git/index.html", {
+workbox.routing.registerNavigationRoute("/InteractiveResume/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

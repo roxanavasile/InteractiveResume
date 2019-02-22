@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.port
+{
+   max-width: 1000px;
+   max-height: 700px;
+}
+
+.inner
+{
+   width: 100%;
+   height: 100%;
+   display: grid;
+   grid-template-rows: 40px 20px 1fr;
+   grid-auto-flow: row;
+}
+
+.work_examples
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 5px;
+}
+h1
+{
+   text-align: center;
+}
+
+.welcome
+{
+   text-align: left;
+   font-size: 2em;
+   color: #008080;
+    font-weight: 600;
+   font-family: 'Indie Flower', cursive;
+
+}

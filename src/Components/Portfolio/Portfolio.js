@@ -67,7 +67,7 @@ const Portfolio = ({onInputChange}) => {
          </div>
          <img src={tiles_wireframe} className="w-100 db" alt="Closeup of a tabby cat yawning." />
          <div className="pa3">
-           <a target="_blank" href="https://github.com/roxanavasile/tiles_website" className="link dim lh-title">Simple and fast wireframe with HTML5, CSS3, Grid, and Flexbox</a>
+           <a target="_blank" href="https://github.com/roxanavasile/tiles_website" className="link dim lh-title"> HTML5, CSS3, Grid, and Flexbox</a>
          </div>
          </article>
       </div>

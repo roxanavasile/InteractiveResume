@@ -1,0 +1,21 @@
+.drawer {
+   background-color: #0288D1;
+}
+
+#list_drawer {
+   margin: 0;
+   padding: 0;
+}
+
+ #list_drawer li {
+
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    padding: .3em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}

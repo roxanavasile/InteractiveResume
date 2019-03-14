@@ -16,12 +16,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@media screen and (max-width:710px){
 
-@media screen and (max-width:600px){
-   nav li{
+   .nav li{
       font-size: 1.2em;
       text-decoration: none;
-      color: #ffffff;
+      color: black;
       padding: .3em;
    }
 
@@ -29,4 +29,11 @@ code {
       font-size: 15px;
    }
 
+   .pad_mobile {
+      margin-top: 6rem;
+   }
+
+   .f4 {
+      font-size: 20px;
+   }
 }

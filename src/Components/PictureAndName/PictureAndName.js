@@ -7,7 +7,7 @@ import './PictureAndName.css';
 const PictureAndName = () =>
 {
    return (
-      <Tilt className="Tilt center" options={{ max : 5 }}  >
+      <Tilt className="Tilt center pad_mobile" options={{ max : 5 }}  >
          <div className="Tilt-inner center">
            <div className= 'wrapper br3 ba b--black-10 mv4  mw7 shadow-5 center '>
             <img src={headshot} alt='Roxana Vasile'  className=' face shadow-4'/>

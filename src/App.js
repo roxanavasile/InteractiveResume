@@ -6,8 +6,11 @@ import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm.js';
 import Portfolio from './Components/Portfolio/Portfolio.js';
 import ContactForm from './Components/ContactForm/ContactForm';
 import Refrences from './Components/Refrences/Refrences.js';
+import BurgerIcon from './Components/HamburgerMenu/BurgerToggleDrawer.js';
+import TopDrawer from './Components/HamburgerMenu/TopDrawer.js';
 import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
+import Popup from "reactjs-popup";
 import './App.css';
 
 
@@ -43,7 +46,8 @@ class App extends Component {
       imageUrl: '',
       box: {},
       route: 'about',
-      isHidden: true
+      isHidden: true,
+      topdrawerOpen: false
    }
 }
 
@@ -94,9 +98,16 @@ onButtonSubmit = () => {
       this.setState({box: box});
    }
 
+   drawerToggleClickHandler = () => {
+      this.setState((prevState) => {
+         return {topdrawerOpen: !prevState.topdrawerOpen};
+      });
+   };
+
   render() {
 
      let area;
+     let topDrawer;
 
      if(this.state.route === 'about' )
      {
@@ -105,7 +116,7 @@ onButtonSubmit = () => {
      else if(this.state.route === 'play' )
      {
         area =
-        <div className='play wrapper br3 ba b--black-10 mv4  mw7 shadow-5 center'>
+        <div className='play wrapper br3 ba b--black-10 mv4 mw7 shadow-5 center '>
            <ImageLinkForm
                         onInputChange = {this.onInputChange}
                         onButtonSubmit = {this.onButtonSubmit}
@@ -126,12 +137,25 @@ onButtonSubmit = () => {
         area = <Refrences onRouteChange ={this.onRouteChange}/>;
      }
 
+
+     if(this.state.sidedrawerOpen) {
+        topDrawer = <TopDrawer />
+     }
+
     return (
       <div >
          <Particles className='particles'
               params={paramsOptions}
             />
-         <Navigation onRouteChange={this.onRouteChange}/>
+         <Popup
+               modal
+               closeOnDocumentclick={false}
+               trigger={open => <BurgerIcon open={open} />}
+               contentStyle={{background: "#0288D1", padding: "0px", margin: "0px", height: "70px", width: "100%", boxShadow: "2px 0px 5px rgba(255, 0, 0, 0.5)" }}
+            >
+            {close => <TopDrawer close={close} onRouteChange={this.onRouteChange}/>}
+         </Popup>
+         <Navigation onRouteChange={this.onRouteChange} />
          {area}
          <div className='contact_me'>
             <button

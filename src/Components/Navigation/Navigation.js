@@ -4,14 +4,14 @@ import './Navigation.css'
 const Navigation = ({onRouteChange}) => {
 
    return(
-      <nav>
+      <div className="main_navigation">
          <ul>
-         <li onClick={() => onRouteChange('about')} >About</li>
-         <li onClick={() => onRouteChange('play')} >Play</li>
-         <li onClick={() => onRouteChange('portfolio')} >Portfolio</li>
-         <li onClick={() => onRouteChange('refrences')} >Refrences</li>
+            <li  onClick={() => onRouteChange('about')} >About |</li>
+            <li  onClick={() => onRouteChange('play')} >Play |</li>
+            <li  onClick={() => onRouteChange('portfolio')} >Portfolio |</li>
+            <li  onClick={() => onRouteChange('refrences')} >Refrences</li>
          </ul>
-      </nav>
+      </div>
    )
 }
 export default Navigation;

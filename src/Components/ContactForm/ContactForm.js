@@ -63,11 +63,11 @@ export default class Contacts extends PureComponent {
       <div className="contact_form">
 
       <main className="pa4 black-80">
-        <form className="measure center">
-          <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+        <form className="measure ">
+          <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
             <legend className="f4 fw6 ph0 mh0">Can't wait to hear from you!</legend>
             <div className="mt3">
-              <label className="db fw6 lh-copy f6" for="email-address">Title</label>
+              <label className="db fw6 lh-copy f6" htmlFor="email-address">Title</label>
               <input
               className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email"
               name="email-address"
@@ -79,7 +79,7 @@ export default class Contacts extends PureComponent {
               />
             </div>
             <div className="mv3">
-              <label className="db fw6 lh-copy f6" for="password">Comments</label>
+              <label className="db fw6 lh-copy f6" htmlFor="password">Comments</label>
               <input
               className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
               type="text"

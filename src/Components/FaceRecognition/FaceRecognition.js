@@ -3,7 +3,7 @@ import './FaceRecognition.css';
 
 const FaceRecognition = ({imageUrl, box}) => {
   return(
-     <div className='center'>
+     <div className='center pad_mobile'>
       <div className='image_background absolute'>
          <img
             id = 'inputImage'

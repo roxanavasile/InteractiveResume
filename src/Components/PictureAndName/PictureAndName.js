@@ -9,8 +9,8 @@ const PictureAndName = () =>
    return (
       <Tilt className="Tilt center pad_mobile" options={{ max : 5 }}  >
          <div className="Tilt-inner center">
-           <div className= 'wrapper br3 ba b--black-10 mv4  mw7 shadow-5 center '>
-            <img src={headshot} alt='Roxana Vasile'  className=' face shadow-4'/>
+           <div className= 'wrapper br3 ba b--black-10 mv4 mw7 shadow-5 center '>
+            <img id="rox_face" src={headshot} alt='Roxana Vasile'  className=' face shadow-4'/>
             <div className='intro'>
                <div>{'Hello!'}</div>
                <div >{'I am Roxana, a very enthusiastic web developer.'} </div>

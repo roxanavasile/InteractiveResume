@@ -16,9 +16,16 @@
    padding-left: 20px;
 }
 
+.top_two {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   align-items: center;
+   overflow: visible;
+}
+
 @media screen and (max-width:710px){
 
-   .small_screen {
-      font-size: 20px;
+   #mobile {
+      font-size: 15px;
    }
 }

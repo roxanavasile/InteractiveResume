@@ -41,6 +41,7 @@
 
    .intro{
       font-size: 1.5em;
+      font-weight: 600;
    }
 
    .face{
@@ -54,18 +55,18 @@
 {
    display: grid;
    grid-template-rows: 1fr 2fr;
-   padding-left: 2em;
    align-items: auto;
 }
-
    .intro{
       font-size: 1.5em;
       font-weight: 550;
-      
+      margin-left: 50px;
+
    }
 
    .face{
       max-width: 150px;
+      margin: 0 auto;
    }
 
 }

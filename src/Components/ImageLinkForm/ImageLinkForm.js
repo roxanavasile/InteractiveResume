@@ -3,8 +3,8 @@ import './ImageLinkForm.css';
 
 const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
   return(
-    <div className="pad_mobile center">
-      <p className='f4' id="">
+    <div className="top_two">
+      <p className='f4' id="mobile">
          {'Right click on any image on the web and select "Open in new Tab". Then copy the url and paste below to detect faces in your pictures.'}
       </p>
       <div className='center'>

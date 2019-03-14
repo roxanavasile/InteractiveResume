@@ -8,7 +8,7 @@ import './Portfolio.css';
 
 const Portfolio = ({onInputChange}) => {
   return(
-    <div className='port br3 ba b--black-10 mv1  mw10 shadow-5 center pad_mobile'>
+    <div className='port center br3 ba b--black-10 mv5.5 mw10 shadow-5 center pad_mobile'>
       <div className='inner'>
          <h1 > Work. Get stuff DONE. </h1>
       </div>

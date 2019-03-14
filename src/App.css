@@ -54,3 +54,10 @@ src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
    display: flex;
    justify-content: center;
 }
+
+@media screen and (max-width:710px){
+
+   .play {
+      grid-template-columns: 2fr 2fr;
+   }
+}

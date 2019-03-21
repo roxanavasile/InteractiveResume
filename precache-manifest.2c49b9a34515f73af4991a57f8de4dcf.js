@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/InteractiveResume/static/media/tiles_wireframe.24ae2397.PNG"
   },
   {
-    "revision": "acdad919204af3d5cff6",
-    "url": "/InteractiveResume/static/css/main.cb30b302.chunk.css"
+    "revision": "b44b63867a6768dbac99",
+    "url": "/InteractiveResume/static/css/main.0eb6fa17.chunk.css"
   },
   {
     "revision": "12a3db8ba7f5423327bb12aed3c41977",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/InteractiveResume/static/media/stokes_county.dd9d3e96.PNG"
   },
   {
-    "revision": "acdad919204af3d5cff6",
-    "url": "/InteractiveResume/static/js/main.acdad919.chunk.js"
+    "revision": "b44b63867a6768dbac99",
+    "url": "/InteractiveResume/static/js/main.b44b6386.chunk.js"
   },
   {
     "revision": "dcc1a59da2e756683a9c578f8794f4c4",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/InteractiveResume/static/media/python.b79bd9ae.jpg"
   },
   {
-    "revision": "b8f99ba7a8591e7abacb696967362989",
-    "url": "/InteractiveResume/static/media/roxana_developer.b8f99ba7.pdf"
+    "revision": "717c07c7955eec7c3dc72e302ec3d0ea",
+    "url": "/InteractiveResume/static/media/roxana_developer.717c07c7.pdf"
   },
   {
     "revision": "f8522f5a9773fea09fc390253b8946a3",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/InteractiveResume/static/css/1.3c27bcad.chunk.css"
   },
   {
-    "revision": "a38c87c930819a6ca7a2a956684be6ac",
+    "revision": "29111381331c9ee35ba787b94b03d326",
     "url": "/InteractiveResume/index.html"
   }
 ];
